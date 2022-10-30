@@ -37,14 +37,17 @@ print("Average Daily Revenue:", average_daily_revenue)
 
 #Try 1
 #cuts_under_30 = [hairstyles[i] for i in range(len(hairstyles)) if new_prices[i] < 30]
+
 #Try 2
 #cuts_under_30 = [hairstyles[i] for i in range(0, (len(hairstyles) - 1)) if new_prices[i] < 30]
 
-#CANT GET IT TO PRINT THE CORRECT HAIRCUTS. SHOULD BE ['bouffant', 'pixie', 'crew', 'bowl']
+###
+####CANT GET IT TO PRINT THE CORRECT HAIRCUTS. SHOULD BE ['bouffant', 'pixie', 'crew', 'bowl']####
+###
 
 #Try 3
-cuts_under_30 = []
+#cuts_under_30 = []
 #for i in range(len(prices)): 
 #  if new_prices[i] < 30:
 #    cuts_under_30.append(hairstyles[i]) 
-print(cuts_under_30)
+#print("Haircuts Under $30:", cuts_under_30)
